@@ -30,11 +30,7 @@ cp .env.example .env
 ```
 Then set `ANTHROPIC_API_KEY` in `.env`.
 
-3. Run any lesson:
+3. Run a lesson:
 ```bash
 uv run python lessons/01_chat_loop.py
-```
-or
-```bash
-uv run python lessons/11_agent.py
 ```
