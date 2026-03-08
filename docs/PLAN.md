@@ -16,7 +16,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** API basics, message format, conversation state.
 
-**Output:** `01_chat_loop.py` — an interactive CLI chatbot with memory.
+**Output:** `lessons/01_chat_loop.py` — an interactive CLI chatbot with memory.
 
 ---
 
@@ -37,7 +37,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** Tool schemas, `tool_use`/`tool_result` message types, the loop itself.
 
-**Output:** `02_tool_loop.py` — an agent that can read files when asked.
+**Output:** `lessons/02_tool_loop.py` — an agent that can read files when asked.
 
 ---
 
@@ -51,7 +51,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** Multiple tools, parallel tool calls, safety considerations.
 
-**Output:** `03_shell_tool.py` — an agent that can read files AND run commands.
+**Output:** `lessons/03_shell_tool.py` — an agent that can read files AND run commands.
 
 ---
 
@@ -65,7 +65,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** Separation of concerns, registry pattern, clean agent architecture.
 
-**Output:** `04_tool_registry.py` — a reusable agent loop with pluggable tools.
+**Output:** `lessons/04_tool_registry.py` — a reusable agent loop with pluggable tools.
 
 ---
 
@@ -79,7 +79,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** Agentic behavior emerging from the loop, multi-step reasoning.
 
-**Output:** `05_multi_step.py` — an agent that can read, write, and reason across steps.
+**Output:** `lessons/05_multi_step.py` — an agent that can read, write, and reason across steps.
 
 ---
 
@@ -93,7 +93,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** External API integration, real-world tool design.
 
-**Output:** `06_api_tool.py` — an agent that can call external APIs.
+**Output:** `lessons/06_api_tool.py` — an agent that can call external APIs.
 
 ---
 
@@ -107,7 +107,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** Streaming API, event handling, UX polish.
 
-**Output:** `07_streaming.py` — same agent, but with real-time streaming output.
+**Output:** `lessons/07_streaming.py` — same agent, but with real-time streaming output.
 
 ---
 
@@ -121,7 +121,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** System prompts, token management, context window strategy.
 
-**Output:** `08_context.py` — an agent with personality and context awareness.
+**Output:** `lessons/08_context.py` — an agent with personality and context awareness.
 
 ---
 
@@ -135,7 +135,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** Error recovery, resilience patterns, graceful degradation.
 
-**Output:** `09_robust.py` — a production-hardened agent loop.
+**Output:** `lessons/09_robust.py` — a production-hardened agent loop.
 
 ---
 
@@ -181,7 +181,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** Defense in depth, sandboxing, input validation, the human-in-the-loop pattern, why "the model decides" is not a security boundary.
 
-**Output:** `10_secure.py` — a hardened agent with layered tool security.
+**Output:** `lessons/10_secure.py` — a hardened agent with layered tool security.
 
 ---
 
@@ -196,7 +196,7 @@ Each lesson produces working code that builds on the previous one.
 
 **You'll learn:** Packaging, UX, bringing it all together.
 
-**Output:** `11_agent.py` — your finished agent.
+**Output:** `lessons/11_agent.py` — your finished agent.
 
 ---
 

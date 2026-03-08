@@ -78,7 +78,7 @@ def main() -> None:
 
     print("Tool Agent (type 'quit' to exit)")
     print("-" * 40)
-    print("Example: Read PLAN.md and summarize lesson 2.")
+    print("Example: Read docs/PLAN.md and summarize lesson 2.")
 
     while True:
         user_input = input("\nYou: ").strip()

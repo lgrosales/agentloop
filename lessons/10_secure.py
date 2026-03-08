@@ -86,7 +86,8 @@ MAX_HTTP_RESPONSE_CHARS = 8_000
 MAX_TOOL_OUTPUT_CHARS = 8_000
 MAX_AUDIT_PREVIEW_CHARS = 400
 
-LOG_DIR = Path("logs")
+RUNTIME_DIR = Path("runtime")
+LOG_DIR = RUNTIME_DIR / "logs"
 AUDIT_LOG_PATH = LOG_DIR / "tool_audit.jsonl"
 DENIED_LOG_PATH = LOG_DIR / "tool_denied.jsonl"
 

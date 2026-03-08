@@ -89,10 +89,11 @@ MAX_TOOL_OUTPUT_CHARS = 8_000
 MAX_AUDIT_PREVIEW_CHARS = 400
 MAX_TOOL_TRACE_CHARS = 1_500
 
-LOG_DIR = Path("logs")
+RUNTIME_DIR = Path("runtime")
+LOG_DIR = RUNTIME_DIR / "logs"
 AUDIT_LOG_PATH = LOG_DIR / "tool_audit.jsonl"
 DENIED_LOG_PATH = LOG_DIR / "tool_denied.jsonl"
-CHAT_DIR = Path(".chat")
+CHAT_DIR = RUNTIME_DIR / "chat"
 HISTORY_PATH = CHAT_DIR / "history.txt"
 DEFAULT_SESSION_PATH = CHAT_DIR / "session.json"
 

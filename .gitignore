@@ -16,3 +16,7 @@ uv.lock
 # Local runtime artifacts
 history.txt
 tool_audit.jsonl
+tool_denied.jsonl
+runtime/
+.chat/
+logs/
